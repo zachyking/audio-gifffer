@@ -11,14 +11,14 @@ Audio-Giffer
 
 ## Demo
 
-[http://krasimir.github.io/gifffer](http://krasimir.github.io/gifffer)
+[https://zachyking.github.io/audio-gifffer/](https://zachyking.github.io/audio-gifffer/)
 
 ## Usage
 
-Include `gifffer.min.js` in your page.
+Include `audio-gifffer.min.js` in your page.
 
 ```html
-<script type="text/javascript" src="gifffer.min.js"></script>
+<script type="text/javascript" src="audio-gifffer.min.js"></script>
 ```
 
 Instead of setting `src` attribute on your image use `data-gifffer`.
