@@ -1,8 +1,8 @@
 {
-  "name": "gifffer",
+  "name": "audio-gifffer",
   "version": "1.5.4",
-  "description": "JavaScript library that prevents the autoplaying of the animated Gifs",
-  "main": "build/gifffer.min.js",
+  "description": "JavaScript library that prevents the autoplaying of the animated Gifs but plays them with audio onClick",
+  "main": "build/audio-gifffer.min.js",
   "author": {
     "name": "Krasimir Tsonev",
     "email": "info@krasimirtsonev.com",
@@ -11,19 +11,17 @@
   "license": "MIT",
   "keywords": [
     "gif",
-    "player"
+    "player",
+    "audio"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:krasimir/gifffer.git"
+    "url": "git@github.com:zachyking/audio-gifffer.git"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "uglifyjs ./lib/gifffer.js -o ./build/gifffer.min.js"
+    "build": "uglifyjs ./lib/audio-gifffer.js -o ./build/audio-gifffer.min.js"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "uglifyjs": "^2.4.11"
   }
 }
