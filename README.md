@@ -11,7 +11,7 @@ Audio-Giffer
 
 ## Demo
 
-[http://krasimir.github.io/gifffer](http://krasimir.github.io/gifffer)
+[https://zachyking.github.io/audio-gifffer/](https://zachyking.github.io/audio-gifffer/)
 
 ## Usage
 
