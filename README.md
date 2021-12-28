@@ -1,8 +1,13 @@
-# Gifffer
+# Audio-Gifffer
 
 ---
 
+Built on Gifffer:
+
 > JavaScript library that prevents the autoplaying of the animated Gifs.
+
+Audio-Giffer
+>Added audio element to play audio with animated Gifs. 
 
 ## Demo
 
@@ -19,7 +24,7 @@ Include `gifffer.min.js` in your page.
 Instead of setting `src` attribute on your image use `data-gifffer`.
 
 ```html
-<img data-gifffer="image.gif" />
+<img data-gifffer="image.gif" audio-data-giffer="audio.mp3" audio-data-format="audio/mpeg" />
 ```
 
 At the end, call `Gifffer();` so you replace the normal gifs with playable gifs. For example:
@@ -33,7 +38,7 @@ window.onload = function() {
 For accessibility reasons, instead of setting `alt` attribute on your image, you may use `data-gifffer-alt` (optional).
 
 ```html
-<img data-gifffer="image.gif" data-gifffer-alt="some alt description"/>
+<img data-gifffer="image.gif" data-gifffer-alt="some alt description" audio-data-giffer="audio.mp3" audio-data-format="audio/mpeg" />
 ```
 
 The Gifffer function returns an array of nodes that could be used to simulate clicks. For Example:
@@ -51,7 +56,7 @@ window.onload = function() {
 Gifffer will show the controls immediately if you set `data-gifffer-width` and `data-gifffer-height` even if the image is not fully loaded.
 
 ```html
-<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" />
+<img data-gifffer="image.gif" data-gifffer-width="250" data-gifffer-height="237" audio-data-giffer="audio.mp3" audio-data-format="audio/mpeg" />
 ```
 
 *(`data-gifffer-width` accepts percentages value)*
@@ -61,7 +66,7 @@ Have in mind that the library keeps the value of the `class` and `id` attributes
 If you want to stop the Gif and reset it to its original position afetr a given time interval use `data-gifffer-duration` (in milliseconds).
 
 ```
-<img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" />
+<img data-gifffer="image.gif" data-gifffer-duration="4000" data-gifffer-width="250" data-gifffer-height="237" audio-data-giffer="audio.mp3" audio-data-format="audio/mpeg"  />
 ```
 
 ### Module Loading (Webpack or Angular ect)
