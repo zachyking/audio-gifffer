@@ -15,10 +15,10 @@ Audio-Giffer
 
 ## Usage
 
-Include `gifffer.min.js` in your page.
+Include `audio-gifffer.min.js` in your page.
 
 ```html
-<script type="text/javascript" src="gifffer.min.js"></script>
+<script type="text/javascript" src="audio-gifffer.min.js"></script>
 ```
 
 Instead of setting `src` attribute on your image use `data-gifffer`.
